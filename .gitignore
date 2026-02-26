@@ -1,0 +1,23 @@
+# Виртуальные окружения
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Файлы с секретами
+.env
+*.crt
+*.key
+
+# Папки с данными
+exports/
+data/final.csv
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+EOF
