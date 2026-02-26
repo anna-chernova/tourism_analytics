@@ -46,7 +46,7 @@
 
 1. **Клонируйте репозиторий:**
 ```bash
-git clone <repository-url>
+git clone https://github.com/anna-chernova/tourism_analytics.git
 ```
 2. **Создайте виртуальное окружение:**
 ```bash
