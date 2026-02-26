@@ -79,7 +79,7 @@ SSLMODE=verify-full
 - Поместите тестовую выгрузку final.csv в папку data/
 
 7. **Загрузите данные в БД:**
-- В базе данных должна быть создана таблица visits:
+- Создайте таблицу visits в базе данных:
 ```bash
 CREATE TABLE IF NOT EXISTS visits (
     id SERIAL PRIMARY KEY,
@@ -117,5 +117,5 @@ jupyter notebook
 
 11. **Если нужно экспортировать ответы:**
 ```bash
-curl -X POST http://localhost:5000/api/export   -H "Content-Type: application/json"   -d '{}'
+curl -X POST http://localhost:5000/api/export -H "Content-Type: application/json" -d '{}'
 ```
